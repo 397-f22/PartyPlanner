@@ -16,6 +16,7 @@ const FilterMenu = ({
   setSortDirection,
 }) => {
   restaurantCategories.sort();
+  
 
   return (
     <div className="filter-menu">
