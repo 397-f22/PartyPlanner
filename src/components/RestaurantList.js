@@ -5,14 +5,6 @@ const RestaurantList = ({ restaurants, filterCategories, sortDirection }) => {
 
   switch (sortDirection) {
 
-    case "Increasing Wage":
-      restaurants.sort((a, b) => { return a["PAY RATE"][0] - b["PAY RATE"][0] });
-      break;
-
-    case "Decreasing Wage":
-      restaurants.sort((a, b) => { return b["PAY RATE"][0] - a["PAY RATE"][0] });
-      break;
-
     case "Alphabetical Order":
       restaurants.sort((a, b) => { return a.TITLE.substring(a.TITLE.indexOf(":")+1).localeCompare(b.TITLE.substring(b.TITLE.indexOf(":")+1)); });
       break;

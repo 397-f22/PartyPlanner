@@ -4,12 +4,12 @@
     "CONTACT EMAIL": "",
     "CONTACT NAME": "",
     "CONTACT PHONE NUMBER": "(847) 866-9900",
-    "DEPARTMENT": "Spanish",
+    "CUSINE": "Spanish",
     "ID": 6,
     "JOB DESCRIPTION": "",
     "LOCATION": "1615 Chicago Ave, Evanston, IL 60201",
     "NUMBER OF POSITIONS AVAILABLE": "",
-    "PAY RATE": [
+    "PRICE": [
       "$$"
     ],
     "QUALIFICATIONS": "",
@@ -23,12 +23,12 @@
     "CONTACT EMAIL": "",
     "CONTACT NAME": "",
     "CONTACT PHONE NUMBER": "(847) 866-9900",
-    "DEPARTMENT": "Brunch",
+    "CUSINE": "Brunch",
     "ID": 7,
     "JOB DESCRIPTION": "",
     "LOCATION": "827 Church St, Evanston, IL 60202",
     "NUMBER OF POSITIONS AVAILABLE": "",
-    "PAY RATE": [
+    "PRICE": [
       "$$"
     ],
     "QUALIFICATIONS": "",
@@ -42,12 +42,12 @@
     "CONTACT EMAIL": "",
     "CONTACT NAME": "",
     "CONTACT PHONE NUMBER": "(847) 864-8328",
-    "DEPARTMENT": "American",
+    "CUSINE": "American",
     "ID": 8,
     "JOB DESCRIPTION": "",
     "LOCATION": "1635 Chicago Ave, Evanston, IL 60201",
     "NUMBER OF POSITIONS AVAILABLE": "",
-    "PAY RATE": [
+    "PRICE": [
       "$$"
     ],
     "QUALIFICATIONS": "",
@@ -61,12 +61,12 @@
     "CONTACT EMAIL": "",
     "CONTACT NAME": "",
     "CONTACT PHONE NUMBER": "(847) 733-8424",
-    "DEPARTMENT": "Thai",
+    "CUSINE": "Thai",
     "ID": 9,
     "JOB DESCRIPTION": "",
     "LOCATION": "1622 Orrington Ave, Evanston, IL 60201",
     "NUMBER OF POSITIONS AVAILABLE": "",
-    "PAY RATE": [
+    "PRICE": [
       "$$"
     ],
     "QUALIFICATIONS": "",
@@ -80,12 +80,12 @@
     "CONTACT EMAIL": "",
     "CONTACT NAME": "",
     "CONTACT PHONE NUMBER": "(847) 570-0100",
-    "DEPARTMENT": "Asian fusion",
+    "CUSINE": "Asian fusion",
     "ID": 10,
     "JOB DESCRIPTION": "",
     "LOCATION": "707 Church St, Evanston, IL 60201",
     "NUMBER OF POSITIONS AVAILABLE": "",
-    "PAY RATE": [
+    "PRICE": [
       "$"
     ],
     "QUALIFICATIONS": "",
@@ -99,12 +99,12 @@
     "CONTACT EMAIL": "",
     "CONTACT NAME": "",
     "CONTACT PHONE NUMBER": "(847) 332-1625",
-    "DEPARTMENT": "Latin American",
+    "CUSINE": "Latin American",
     "ID": 11,
     "JOB DESCRIPTION": "",
     "LOCATION": "1625 Chicago Ave, Evanston, IL 60201",
     "NUMBER OF POSITIONS AVAILABLE": "",
-    "PAY RATE": [
+    "PRICE": [
       "$$"
     ],
     "QUALIFICATIONS": "",

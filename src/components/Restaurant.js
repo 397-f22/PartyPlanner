@@ -31,12 +31,12 @@ const Restaurant = ({ restaurant }) => {
                 <div className="card-title"> {restaurant.TITLE.substring(restaurant.TITLE.indexOf(":") + 1)}
                 </div>
                 <div className="card-category">
-                    {restaurant.DEPARTMENT}
+                    {restaurant.CUSINE}
                 </div>
 
                 <div className="card-body">
                     <div className="row">
-                        <div className='card-text col-sm'> ${restaurant["PAY RATE"][0]}/hr </div>
+                        <div className='card-text col-sm'> ${restaurant["PRICE"][0]} </div>
                         <div className='card-text col-sm'> {restaurant["WORK ARRANGEMENTS"]} </div>
                         <div className='card-text col-sm'> {restaurant.LOCATION} </div>
                     </div>
