@@ -1,85 +1,70 @@
-# React Vitest Template
+# Getting Started with Create React App
 
-A starter template for building React apps with Vite. Includes Vitest for unit testing and
-a hefty .gitignore file.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Usage
+## Available Scripts
 
-```
-mkdir your-app-name
-cd your-app-name
-npx degit criesbeck/react-vitest
-npm install
-```
+In the project directory, you can run:
 
-## Test
+### `npm start`
 
-Verify that the initial app works. Run
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-```
-npm start
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-and open the URL displayed.
+### `npm test`
 
-Verify that the unit tests work with
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```
-npm test
-```
+### `npm run build`
 
-Two tests should run and pass. 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Scripts
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**package.json** defines the following scripts:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-| Script         | Description                                         |
-| -------------- | --------------------------------------------------- |
-| npm start      | Runs the app in the development mode.               |
-| npm run dev    | Runs the app in the development mode.               |
-| npm run build  | Builds the app for production to the `dist` folder. |
-| npm run serve  | Serves the production build from the `dist` folder. |
-| npm test       | Starts a Jest-like test loop                        |
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Git
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-If everything is working, set up [your local and remote repositories](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git).
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Folder Structure
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```
-your-app-name
-├── node_modules
-├── public
-│   ├── favicon.svg
-│   └── robots.txt
-└── src
-    ├── App.css
-    ├── App.jsx
-    ├── index.css
-    ├── index.jsx
-    └── logo.svg
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-├── vite.config.js
-```
+## Learn More
 
-## Credits
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-React-Vitest built and maintained by [Chris Riesbeck](https://github.com/criesbeck).
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Inspired by [SafdarJamal/vite-template-react](https://github.com/SafdarJamal/vite-template-react).
-Expanded to include Vitest and some sample tests.
+### Code Splitting
 
-Thanks to Rich Harris for [degit](https://www.npmjs.com/package/degit).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Gitignore file created with [the Toptal tool](https://www.toptal.com/developers/gitignore/api/react,firebase,visualstudiocode,macos,windows).
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## License
+### Making a Progressive Web App
 
-This project is licensed under the terms of the [MIT license](./LICENSE).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
