@@ -9,19 +9,19 @@ import SortBar from "./SortBar.js";
 // work arrangements
 
 const FilterMenu = ({
-  restaurantCategories,
+  jobCategories,
   filterCategories,
   setFilterCategories,
   sortDirection,
   setSortDirection,
 }) => {
-  restaurantCategories.sort();
+  jobCategories.sort();
 
   return (
     <div className="filter-menu">
       <h2>Filters</h2>
-      <h4>Category</h4>
-      {restaurantCategories.map((category) => (
+      <div className="filter-container">
+      {jobCategories.map((category) => (
         <Filter
           role="filter"
           filterCategories={filterCategories}
@@ -31,12 +31,15 @@ const FilterMenu = ({
           dataTestID={`filterby-${category.toLowerCase()}`}
         />
       ))}
-      <div className="sort-bar">
+      {/* <div className="sort-bar">
         <SortBar
           sortDirection={sortDirection}
           setSortDirection={setSortDirection}
         />
-      </div>
+      </div> */}
+      
+        </div> 
+      
     </div>
   );
 };

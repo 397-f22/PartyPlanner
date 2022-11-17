@@ -33,15 +33,17 @@ Nav {
   align-self: flex-end;
 }
 
-.filters-and-restaurants {
+.filters-and-jobs{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .cards-list{
-  width: 80%;
+  /* width: 80%; */
 }
 
 .filters-list{
   position: sticky;
+  top: 70px;
+  z-index: 999;
 }
