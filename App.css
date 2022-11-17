@@ -33,7 +33,7 @@ Nav {
   align-self: flex-end;
 }
 
-.filters-and-jobs{
+.filters-and-restaurants {
   display: flex;
   flex-direction: row;
 }
