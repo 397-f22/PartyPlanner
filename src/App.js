@@ -6,7 +6,7 @@ import NavBar from "./components/NavBar.js";
 import SortBar from "./components/SortBar";
 import RestaurantData from "./Restaurants.json";
 
-import { useData } from "./utilities/firebase.js";
+//import { useData } from "./utilities/firebase.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
