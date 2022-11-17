@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import RestaurantCard from './components/RestaurantCard';
+import NavBar from './components/NavBar';
 
 const App = () => {
 
   return (
     <div className="App">
-      <RestaurantCard />
+      <NavBar />
     </div>
   );
 };
