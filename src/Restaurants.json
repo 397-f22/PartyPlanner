@@ -112,6 +112,120 @@
     "TITLE": "La Cocinita",
     "URL": "",
     "WORK ARRANGEMENTS": "Open"
+  },
+  {
+    "CATEGORY": "Dairy free",
+    "CONTACT EMAIL": "",
+    "CONTACT NAME": "",
+    "CONTACT PHONE NUMBER": "(847) 866-7055",
+    "CUSINE": "Korean",
+    "ID": 12,
+    "JOB DESCRIPTION": "",
+    "LOCATION": "720 1/2 Clark St, Evanston, IL 60201",
+    "NUMBER OF POSITIONS AVAILABLE": "",
+    "PRICE": [
+      "$$"
+    ],
+    "QUALIFICATIONS": "",
+    "TERM AVAILABLE": "",
+    "TITLE": "Koco Table Evanston",
+    "URL": "",
+    "WORK ARRANGEMENTS": "Open"
+  },
+  {
+    "CATEGORY": "Vegetarian",
+    "CONTACT EMAIL": "",
+    "CONTACT NAME": "",
+    "CONTACT PHONE NUMBER": "(847) 866-7055",
+    "CUSINE": "Chinese",
+    "ID": 13,
+    "JOB DESCRIPTION": "",
+    "LOCATION": "533 Davis St, Evanston, IL 60201",
+    "NUMBER OF POSITIONS AVAILABLE": "",
+    "PRICE": [
+      "$$"
+    ],
+    "QUALIFICATIONS": "",
+    "TERM AVAILABLE": "",
+    "TITLE": "Joy Yee Noodle",
+    "URL": "",
+    "WORK ARRANGEMENTS": "Open"
+  },
+  {
+    "CATEGORY": "Kosher",
+    "CONTACT EMAIL": "",
+    "CONTACT NAME": "",
+    "CONTACT PHONE NUMBER": "(847) 328-3278",
+    "CUSINE": "Mediterranean",
+    "ID": 14,
+    "JOB DESCRIPTION": "",
+    "LOCATION": "825 Church St, Evanston, IL 60201",
+    "NUMBER OF POSITIONS AVAILABLE": "",
+    "PRICE": [
+      "$"
+    ],
+    "QUALIFICATIONS": "",
+    "TERM AVAILABLE": "",
+    "TITLE": "Habibi In Mediterranean Grill",
+    "URL": "",
+    "WORK ARRANGEMENTS": "Open"
+  },
+  {
+    "CATEGORY": "Dairy free",
+    "CONTACT EMAIL": "",
+    "CONTACT NAME": "",
+    "CONTACT PHONE NUMBER": "(847) 866-6969",
+    "CUSINE": "Asian fusion",
+    "ID": 15,
+    "JOB DESCRIPTION": "",
+    "LOCATION": "624 Davis St, Evanston, IL 60201",
+    "NUMBER OF POSITIONS AVAILABLE": "",
+    "PRICE": [
+      "$$"
+    ],
+    "QUALIFICATIONS": "",
+    "TERM AVAILABLE": "",
+    "TITLE": "Koi Fine Asian Cuisine & Lounge",
+    "URL": "",
+    "WORK ARRANGEMENTS": "Open"
+  },
+  {
+    "CATEGORY": "Vegan",
+    "CONTACT EMAIL": "",
+    "CONTACT NAME": "",
+    "CONTACT PHONE NUMBER": "(847) 563-8461",
+    "CUSINE": "Chinese",
+    "ID": 16,
+    "JOB DESCRIPTION": "",
+    "LOCATION": "620 Davis St, Evanston, IL 60201",
+    "NUMBER OF POSITIONS AVAILABLE": "",
+    "PRICE": [
+      "$$"
+    ],
+    "QUALIFICATIONS": "",
+    "TERM AVAILABLE": "",
+    "TITLE": "Peppercorns Kitchen",
+    "URL": "",
+    "WORK ARRANGEMENTS": "Open"
+  },
+  {
+    "CATEGORY": "Dairy free",
+    "CONTACT EMAIL": "",
+    "CONTACT NAME": "",
+    "CONTACT PHONE NUMBER": "(847) 328-9100",
+    "CUSINE": "American",
+    "ID": 17,
+    "JOB DESCRIPTION": "",
+    "LOCATION": "824 Noyes St, Evanston, IL 60201",
+    "NUMBER OF POSITIONS AVAILABLE": "",
+    "PRICE": [
+      "$$"
+    ],
+    "QUALIFICATIONS": "",
+    "TERM AVAILABLE": "",
+    "TITLE": "Stacked & Folded",
+    "URL": "",
+    "WORK ARRANGEMENTS": "Open"
   }
-  
+
 ]
