@@ -20,7 +20,7 @@ const FilterMenu = ({
 
   return (
     <div className="filter-menu">
-      <h2>Filters</h2>
+      <h2>Dietary Restrictions</h2>
       <div className="filter-container">
       {restaurantCategories.map((category) => (
         <Filter
