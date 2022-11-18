@@ -16,7 +16,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "Tapas Barcelona",
     "URL": "",
-    "WORK ARRANGEMENTS": "Opens 5PM"
+    "AVAILABILITY": "Opens 5PM"
   },
   {
     "CATEGORY": "Vegan",
@@ -35,7 +35,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "Le Peep Evanston",
     "URL": "",
-    "WORK ARRANGEMENTS": "Open"
+    "AVAILABILITY": "Open"
   },
   {
     "CATEGORY": "Gluten free",
@@ -54,7 +54,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "Prarie Moon",
     "URL": "",
-    "WORK ARRANGEMENTS": "Open"
+    "AVAILABILITY": "Open"
   },
   {
     "CATEGORY": "Vegetarian",
@@ -73,7 +73,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "NaKorn Urban Thai",
     "URL": "",
-    "WORK ARRANGEMENTS": "Open"
+    "AVAILABILITY": "Open"
   },
   {
     "CATEGORY": "Vegetarian",
@@ -92,7 +92,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "Flat Top Grill",
     "URL": "",
-    "WORK ARRANGEMENTS": "Open"
+    "AVAILABILITY": "Open"
   },
   {
     "CATEGORY": "Gluten free",
@@ -111,7 +111,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "La Cocinita",
     "URL": "",
-    "WORK ARRANGEMENTS": "Open"
+    "AVAILABILITY": "Open"
   },
   {
     "CATEGORY": "Dairy free",
@@ -130,7 +130,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "Koco Table Evanston",
     "URL": "",
-    "WORK ARRANGEMENTS": "Open"
+    "AVAILABILITY": "Open"
   },
   {
     "CATEGORY": "Vegetarian",
@@ -149,7 +149,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "Joy Yee Noodle",
     "URL": "",
-    "WORK ARRANGEMENTS": "Open"
+    "AVAILABILITY": "Open"
   },
   {
     "CATEGORY": "Kosher",
@@ -168,7 +168,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "Habibi In Mediterranean Grill",
     "URL": "",
-    "WORK ARRANGEMENTS": "Open"
+    "AVAILABILITY": "Open"
   },
   {
     "CATEGORY": "Dairy free",
@@ -187,7 +187,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "Koi Fine Asian Cuisine & Lounge",
     "URL": "",
-    "WORK ARRANGEMENTS": "Open"
+    "AVAILABILITY": "Open"
   },
   {
     "CATEGORY": "Vegan",
@@ -206,7 +206,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "Peppercorns Kitchen",
     "URL": "",
-    "WORK ARRANGEMENTS": "Open"
+    "AVAILABILITY": "Open"
   },
   {
     "CATEGORY": "Dairy free",
@@ -225,7 +225,7 @@
     "TERM AVAILABLE": "",
     "TITLE": "Stacked & Folded",
     "URL": "",
-    "WORK ARRANGEMENTS": "Open"
+    "AVAILABILITY": "Open"
   }
 
 ]

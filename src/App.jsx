@@ -1,8 +1,8 @@
 import "./App.css";
 import React, { useState } from "react";
-import RestaurantList from "./components/RestaurantList.js";
-import FilterMenu from "./components/FilterMenu.js";
-import NavBar from "./components/NavBar.js";
+import RestaurantList from "./components/RestaurantList.jsx";
+import FilterMenu from "./components/FilterMenu.jsx";
+import NavBar from "./components/NavBar.jsx";
 import SortBar from "./components/SortBar";
 import RestaurantData from "./Restaurants.json";
 

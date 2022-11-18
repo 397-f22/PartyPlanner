@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/FilterMenu.css";
-import Filter from "./Filter.js";
-import SortBar from "./SortBar.js";
+import Filter from "./Filter.jsx";
+import SortBar from "./SortBar.jsx";
 
 // const categories = ["Research", "Athletics and Recreation", "Technical", "Laboratory Work"]
 // quarter = spring, winter, fall
 // wage
-// work arrangements
+// AVAILABILITY
 
 const FilterMenu = ({
   restaurantCategories,

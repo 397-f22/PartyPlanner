@@ -8,10 +8,14 @@
   /* border: solid 2px black; */
 }
 
-.app-body {
+html, .app-body {
   display: flex;
   flex-direction: column;
+  background-color: #e7ecef;
+  height: 100%;
 }
+
+
 
 Nav {
   top: 0;

@@ -1,5 +1,5 @@
 import React from 'react'
-import Restaurant from './Restaurant.js'
+import Restaurant from './Restaurant.jsx'
 
 const RestaurantList = ({ restaurants, filterCategories, sortDirection }) => {
 
