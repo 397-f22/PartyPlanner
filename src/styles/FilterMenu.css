@@ -1,7 +1,7 @@
 .filter-menu {
     top: 95px;
     /* position: sticky; */
-    background-color: #f4f0fe;
+    background-color: #e7ecef;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

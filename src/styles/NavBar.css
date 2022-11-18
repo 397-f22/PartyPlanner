@@ -2,14 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e1d7ff;
+    background-color: #d8a47f;
     width: 100%;
 }
 
 .nav-title {
     padding: 5px 30px 5px 30px;
     transition: color 0.5s ease-in;
-    color: #292c2e;
+    color: #272932;
     font-weight: bold;
     font-size: 3em;
 }
@@ -19,12 +19,12 @@
 }
 
 .nav-title:hover {
-    color: black;
+    color: #272932;
 }
 
 
 .nav-title:hover>span.nav-title-nu {
-    color: #4E2A84;
+    color: #d8a47f;
 }
 
 .form-outline {
@@ -35,5 +35,5 @@
 }
 
 .nav-about-text {
-    color: #4E2A84;
+    color: #d8a47f;
 }
