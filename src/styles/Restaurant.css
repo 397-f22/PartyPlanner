@@ -1,7 +1,11 @@
 .cards {
     width: 100%;
+    padding-left: 0;
 }
 
+.container-fluid{
+    padding-left: 0;
+}
 .card {
     background-color: #828282;
     margin-top: 15px;
