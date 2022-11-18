@@ -5,8 +5,17 @@
     background-color: #d8a47f;
     width: 100%;
     height: auto;
+   
+   
 }
-
+@media only screen and (min-width: 602px) {
+    .nav {
+        background: -webkit-linear-gradient(45deg, #d8a47f 48%, #1b1e21 48%);
+        background: -webkit-linear-gradient(left, #d8a47f 48%, #1b1e21 48%);
+        background: linear-gradient(45deg, #d8a47f 48%, #1b1e21 48%);
+    }
+    
+}
 .nav-title {
     padding: 5px 30px 5px 30px;
     transition: color 0.5s ease-in;
@@ -24,9 +33,6 @@
 }
 
 
-.nav-title:hover>span.nav-title-nu {
-    color: #d8a47f;
-}
 
 .form-outline {
     flex: 1 1 auto!important;
@@ -37,4 +43,9 @@
 
 .nav-about-text {
     color: #d8a47f;
+}
+.topbar {
+    background-color: black;
+    height: 20px;
+    width: 100%;
 }
