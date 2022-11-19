@@ -21,8 +21,8 @@ h4 {
 .filter-container{
     display: flex;
     flex-direction: row;
-    /* overflow-x: scroll; */
-    flex-wrap: wrap;
+    overflow-x: scroll;
+    /* flex-wrap: wrap; */
     /* height: 36px; */
     /* width: 75%; */
     /* overflow: auto; */
