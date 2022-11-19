@@ -29,7 +29,7 @@ const FilterMenu = ({
           setFilterCategories={setFilterCategories}
           value={category}
           key={category}
-          dataTestID={`filterby-${category.toLowerCase()}`}
+          dataTestID={`filterby-${category}`}
         />
       ))}
       {/* <div className="sort-bar">

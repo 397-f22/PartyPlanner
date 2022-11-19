@@ -15,13 +15,13 @@ const RestaurantList = ({ restaurants, filterCategories, sortDirection }) => {
   }
 
   restaurants = restaurants.filter(rest => !rest.TITLE.includes("General Info"));
-
+  // console.log(filterCategories)
   return (
     <ul className="cards">
       {filterCategories.length === 0 ?
         Object.values(restaurants).map((rest) =>
           <Restaurant restaurant={rest} key={rest.ID} />) :
-        restaurants.filter(rest => filterCategories.includes(rest.CATEGORY)).map((rest) =>
+        restaurants.filter(rest => filterCategories.every(cat => rest.CATEGORY.includes(cat))).map((rest) =>
           <Restaurant restaurant={rest} key={rest.ID} />)
       }
     </ul>

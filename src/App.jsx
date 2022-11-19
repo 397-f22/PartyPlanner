@@ -19,15 +19,12 @@ const App = () => {
 
   //if (error) return <h1>{error}</h1>;
   //if (loading) return <h1>Loading your restaurants...</h1>;
-
-  const restaurantCategories = Array.from(
-    new Set(
-      Object.values(RestaurantData).map((rest) => {
-        return rest.CATEGORY;
-      })
-    )
-  );
-
+  
+  let restaurantCategories = []
+  Object.values(RestaurantData).map((rest) => {
+      rest.CATEGORY.map(cat => restaurantCategories.push(cat));
+    })
+  restaurantCategories = new Array(...new Set(restaurantCategories));
   return (
     <div className="app-body">
       <NavBar />
