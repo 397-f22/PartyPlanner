@@ -9,7 +9,8 @@
       "$$"
     ],
     "TITLE": "Tapas Barcelona",
-    "AVAILABILITY": "Opens 5PM"
+    "AVAILABILITY": "Opens 5PM",
+    "CAPACITY": [5,7,9,12,11,15,11,13,8,11,6,9,10,11]
   },
   {
     "CATEGORY": [],
@@ -21,7 +22,8 @@
       "$$"
     ],
     "TITLE": "Le Peep Evanston",
-    "AVAILABILITY": "Open"
+    "AVAILABILITY": "Open",
+    "CAPACITY": [8,5,7,11,7,9,10,11,18,9,10,14,17,9]
   },
   {
     "CATEGORY": ["Gluten free", "Nut Free", "Vegetarian"],
@@ -33,7 +35,8 @@
       "$$"
     ],
     "TITLE": "Prarie Moon",
-    "AVAILABILITY": "Open"
+    "AVAILABILITY": "Open",
+    "CAPACITY": [6,7,8,10,10,10,10,13,10,9,9,9,6,9]
   },
   {
     "CATEGORY": ["Vegetarian", "Halal", "Kosher", "Dairy free"],
@@ -45,7 +48,8 @@
       "$$"
     ],
     "TITLE": "NaKorn Urban Thai",
-    "AVAILABILITY": "Open"
+    "AVAILABILITY": "Open",
+    "CAPACITY": [7,7,7,11,13,14,11,5,16,12,10,13,8,10]
   },
   {
     "CATEGORY": ["Vegetarian", "Gluten free", "Vegan", "Dairy free"],
@@ -58,7 +62,8 @@
       "$"
     ],
     "TITLE": "Flat Top Grill",
-    "AVAILABILITY": "Open"
+    "AVAILABILITY": "Open",
+    "CAPACITY": [17,13,11,10,11,14,15,15,16,12,11,14,7,8]
   },
   {
     "CATEGORY": ["Gluten free", "Vegan", "Nut Free", "Vegetarian"],
@@ -71,7 +76,8 @@
     ],
     "TITLE": "La Cocinita",
     "URL": "",
-    "AVAILABILITY": "Open"
+    "AVAILABILITY": "Open",
+    "CAPACITY": [11,11,11,11,11,11,11,11,11,11,11,11,11,11]
   },
   {
     "CATEGORY": ["Dairy free", "Vegan", "Vegetarian", "Nut Free"],
@@ -84,7 +90,8 @@
       "$$"
     ],
     "TITLE": "Koco Table Evanston",
-    "AVAILABILITY": "Open"
+    "AVAILABILITY": "Open",
+    "CAPACITY": [5,5,5,5,5,5,5,5,5,5,5,5,5,5]
   },
   {
     "CATEGORY": ["Vegetarian", "Gluten free", "Vegan", "Dairy free", "Nut Free", "Halal", "Kosher"],
@@ -97,7 +104,8 @@
       "$$"
     ],
     "TITLE": "Joy Yee Noodle",
-    "AVAILABILITY": "Open"
+    "AVAILABILITY": "Open",
+    "CAPACITY": [20,20,20,20,20,20,20,20,20,20,20,20,20,20]
   },
   {
     "CATEGORY": ["Kosher", "Vegetarian"],
@@ -109,7 +117,8 @@
       "$"
     ],
     "TITLE": "Habibi In Mediterranean Grill",
-    "AVAILABILITY": "Open"
+    "AVAILABILITY": "Open",
+    "CAPACITY": [9,8,8,8,7,8,7,6,7,8,5,6,8,9]
   },
   {
     "CATEGORY": ["Dairy free"],
@@ -121,7 +130,8 @@
       "$$"
     ],
     "TITLE": "Koi Fine Asian Cuisine & Lounge",
-    "AVAILABILITY": "Open"
+    "AVAILABILITY": "Open",
+    "CAPACITY": [5,7,8,9,8,8,9,8,9,8,9,8,9,8]
   },
   {
     "CATEGORY": ["Vegan"],
@@ -134,7 +144,8 @@
       "$$"
     ],
     "TITLE": "Peppercorns Kitchen",
-    "AVAILABILITY": "Open"
+    "AVAILABILITY": "Open",
+    "CAPACITY": [10,11,12,13,14,15,16,17,18,19,20,19,18,18]
   },
   {
     "CATEGORY": ["Dairy free"],
@@ -146,7 +157,8 @@
       "$$"
     ],
     "TITLE": "Stacked & Folded",
-    "AVAILABILITY": "Open"
+    "AVAILABILITY": "Open",
+    "CAPACITY": [10,11,12,13,14,15,16,17,18,19,20,19,18,18]
   }
 
 ]
