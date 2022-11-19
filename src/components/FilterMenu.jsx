@@ -45,7 +45,7 @@ const FilterMenu = ({
       
         </div> 
       <div className="filter-container">
-        <InputLabel id="demo-simple-select-label">Group Size</InputLabel>
+        <InputLabel id="groupSizeLabel">Group Size</InputLabel>
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"

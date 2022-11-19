@@ -2,7 +2,7 @@
     top: 95px;
     /* position: sticky; */
     background-color: white;
-    display: flex;
+    display: block;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 15px;
@@ -26,4 +26,8 @@ h4 {
     /* height: 36px; */
     /* width: 75%; */
     /* overflow: auto; */
+}
+
+#groupSizeLabel {
+    padding:10px;
 }
