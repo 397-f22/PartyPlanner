@@ -1,6 +1,6 @@
 [
   {
-    "CATEGORY": "Gluten free",
+    "CATEGORY": ["Gluten free"],
     "CONTACT PHONE NUMBER": "(847) 866-9900",
     "CUSINE": "Spanish",
     "ID": 6,
@@ -12,7 +12,7 @@
     "AVAILABILITY": "Opens 5PM"
   },
   {
-    "CATEGORY": "Vegan",
+    "CATEGORY": ["Vegan"],
     "CONTACT PHONE NUMBER": "(847) 866-9900",
     "CUSINE": "Brunch",
     "ID": 7,
@@ -24,7 +24,7 @@
     "AVAILABILITY": "Open"
   },
   {
-    "CATEGORY": "Gluten free",
+    "CATEGORY": ["Gluten free"],
     "CONTACT PHONE NUMBER": "(847) 864-8328",
     "CUSINE": "American",
     "ID": 8,
@@ -36,7 +36,7 @@
     "AVAILABILITY": "Open"
   },
   {
-    "CATEGORY": "Vegetarian",
+    "CATEGORY": ["Vegetarian"],
     "CONTACT PHONE NUMBER": "(847) 733-8424",
     "CUSINE": "Thai",
     "ID": 9,
@@ -48,7 +48,7 @@
     "AVAILABILITY": "Open"
   },
   {
-    "CATEGORY": "Vegetarian",
+    "CATEGORY": ["Vegetarian"],
     "CONTACT PHONE NUMBER": "(847) 570-0100",
     "CUSINE": "Asian fusion",
     "ID": 10,
@@ -61,7 +61,7 @@
     "AVAILABILITY": "Open"
   },
   {
-    "CATEGORY": "Gluten free",
+    "CATEGORY": ["Gluten free"],
     "CONTACT PHONE NUMBER": "(847) 332-1625",
     "CUSINE": "Latin American",
     "ID": 11,
@@ -74,7 +74,7 @@
     "AVAILABILITY": "Open"
   },
   {
-    "CATEGORY": "Dairy free",
+    "CATEGORY": ["Dairy free"],
     "CONTACT PHONE NUMBER": "(847) 866-7055",
     "CUSINE": "Korean",
     "ID": 12,
@@ -87,7 +87,7 @@
     "AVAILABILITY": "Open"
   },
   {
-    "CATEGORY": "Vegetarian",
+    "CATEGORY": ["Vegetarian"],
     "CONTACT PHONE NUMBER": "(847) 866-7055",
     "CUSINE": "Chinese",
     "ID": 13,
@@ -100,7 +100,7 @@
     "AVAILABILITY": "Open"
   },
   {
-    "CATEGORY": "Kosher",
+    "CATEGORY": ["Kosher", "Vegetarian"],
     "CONTACT PHONE NUMBER": "(847) 328-3278",
     "CUSINE": "Mediterranean",
     "ID": 14,
@@ -112,7 +112,7 @@
     "AVAILABILITY": "Open"
   },
   {
-    "CATEGORY": "Dairy free",
+    "CATEGORY": ["Dairy free"],
     "CONTACT PHONE NUMBER": "(847) 866-6969",
     "CUSINE": "Asian fusion",
     "ID": 15,
@@ -124,7 +124,7 @@
     "AVAILABILITY": "Open"
   },
   {
-    "CATEGORY": "Vegan",
+    "CATEGORY": ["Vegan"],
     "CONTACT PHONE NUMBER": "(847) 563-8461",
     "CUSINE": "Chinese",
     "ID": 16,
@@ -137,7 +137,7 @@
     "AVAILABILITY": "Open"
   },
   {
-    "CATEGORY": "Dairy free",
+    "CATEGORY": ["Dairy free"],
     "CONTACT PHONE NUMBER": "(847) 328-9100",
     "CUSINE": "American",
     "ID": 17,
