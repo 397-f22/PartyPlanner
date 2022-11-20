@@ -4,8 +4,24 @@
     padding: 5px;
 }
 
+.filter input[type=checkbox]{
+    display:none;
+}
+
+.filter input[type=checkbox]:checked + .form-check-label>p{
+    background-color: #b3b7ba;
+
+    /* color#b3b7ba; */
+}
+
 .form-check-label {
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding-top: 5px;
+    height:fit-content;
+    width:fit-content;
+    text-align: center;
+    /* border-radius: 50%; */
+    /* background-color: red; */
 }
 
 .form-check-input {
@@ -23,3 +39,9 @@
     padding: 0;
     width: 20px;
 } */
+
+p{
+    width:82px;
+    border-radius: 3px;
+    transition:0.4s all;
+}
