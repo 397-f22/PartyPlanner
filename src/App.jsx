@@ -14,17 +14,26 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const App = () => {
   // const [sortWage, setSortWage] = useState("")
   const [sortDirection, setSortDirection] = useState("");
-  const [filterCategories, setFilterCategories] = useState([]);
+  const [selectedOptions, setSelectedOptions] = useState({"Dietary Restrictions": [], "Group Size": null});
   //const [RestaurantData, loading, error] = useData("/");
 
   //if (error) return <h1>{error}</h1>;
   //if (loading) return <h1>Loading your restaurants...</h1>;
   
-  let restaurantCategories = []
+  // SAVE ALL POSSIBLE FILTERING CATEGORIES IN ONE VARIABLE
+  let allOptions = {}
+  // Get all dietary restriction categories
+  let dietaryRestrictions = []
   Object.values(RestaurantData).map((rest) => {
-      rest.CATEGORY.map(cat => restaurantCategories.push(cat));
+      rest.CATEGORY.map(cat => dietaryRestrictions.push(cat));
     })
-  restaurantCategories = new Array(...new Set(restaurantCategories));
+  dietaryRestrictions = new Array(...new Set(dietaryRestrictions));
+  // Get all group size options
+  let groupSize = [5,20]
+  // Add all filtering options into allFilterCategories
+  allOptions["Dietary Restrictions"] = dietaryRestrictions.sort();
+  allOptions["Group Size"] = groupSize;
+
   return (
     <div className="app-body">
       <NavBar />
@@ -32,9 +41,9 @@ const App = () => {
         <div className="filters-and-restaurants">
           <div className="filters-list">
             <FilterMenu
-              restaurantCategories={restaurantCategories}
-              filterCategories={filterCategories}
-              setFilterCategories={setFilterCategories}
+              allOptions={allOptions}
+              selectedOptions={selectedOptions}
+              setSelectedOptions={setSelectedOptions}
               sortDirection={sortDirection}
               setSortDirection={setSortDirection}
             />
@@ -42,7 +51,7 @@ const App = () => {
           <div className="cards-list">
             <RestaurantList
               restaurants={RestaurantData}
-              filterCategories={filterCategories}
+              selectedOptions={selectedOptions}
               sortDirection={sortDirection}
             />
           </div>

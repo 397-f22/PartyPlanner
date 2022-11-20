@@ -13,24 +13,26 @@ import Select from '@mui/material/Select';
 // AVAILABILITY
 
 const FilterMenu = ({
-  restaurantCategories,
-  filterCategories,
-  setFilterCategories,
+  allOptions,
+  selectedOptions,
+  setSelectedOptions,
   sortDirection,
   setSortDirection,
 }) => {
-  restaurantCategories.sort();
   
+  function selectGroupSize(val) {
+    setSelectedOptions({...selectedOptions, "Group Size": val})
+  }
 
   return (
     <div className="filter-menu">
       <h2>Dietary Restrictions</h2>
       <div className="filter-container">
-      {restaurantCategories.map((category) => (
+      {allOptions["Dietary Restrictions"].map((category) => (
         <Filter
           role="filter"
-          filterCategories={filterCategories}
-          setFilterCategories={setFilterCategories}
+          selectedOptions={selectedOptions}
+          setSelectedOptions={setSelectedOptions}
           value={category}
           key={category}
           dataTestID={`filterby-${category}`}
@@ -51,8 +53,8 @@ const FilterMenu = ({
           id="demo-simple-select"
           label="Group"
         >
-        {[...Array(16).keys()].map( i =>
-            <MenuItem value={i+5}>{i+5}</MenuItem>
+        {[...Array(allOptions["Group Size"][1]-allOptions["Group Size"][0]+1).keys()].map( i =>
+            <MenuItem value={i+allOptions["Group Size"][0]} onClick={() => selectGroupSize(i+allOptions["Group Size"][0])}>{i+allOptions["Group Size"][0]}</MenuItem>
           )
         }
         </Select>

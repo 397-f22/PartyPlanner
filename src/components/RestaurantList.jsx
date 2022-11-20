@@ -1,7 +1,7 @@
 import React from 'react'
 import Restaurant from './Restaurant.jsx'
 
-const RestaurantList = ({ restaurants, filterCategories, sortDirection }) => {
+const RestaurantList = ({ restaurants, selectedOptions, sortDirection }) => {
 
   switch (sortDirection) {
 
@@ -16,14 +16,22 @@ const RestaurantList = ({ restaurants, filterCategories, sortDirection }) => {
 
   restaurants = restaurants.filter(rest => !rest.TITLE.includes("General Info"));
   // console.log(filterCategories)
+
+  function filterRestaurants(){
+    let filteredRestaurants = restaurants;
+    if (selectedOptions["Dietary Restrictions"] != []){
+      filteredRestaurants = filteredRestaurants.filter(rest => selectedOptions["Dietary Restrictions"].every(cat => rest.CATEGORY.includes(cat)));
+    }
+      if (selectedOptions["Group Size"] != null){
+      filteredRestaurants = filteredRestaurants.filter(rest => rest.CAPACITY[0] >= selectedOptions["Group Size"])
+    }
+    return filteredRestaurants;
+  }
+
   return (
     <ul className="cards">
-      {filterCategories.length === 0 ?
-        Object.values(restaurants).map((rest) =>
-          <Restaurant restaurant={rest} key={rest.ID} />) :
-        restaurants.filter(rest => filterCategories.every(cat => rest.CATEGORY.includes(cat))).map((rest) =>
-          <Restaurant restaurant={rest} key={rest.ID} />)
-      }
+      {Object.values(filterRestaurants()).map((rest) =>
+          <Restaurant restaurant={rest} key={rest.ID} />)}
     </ul>
   )
 }
