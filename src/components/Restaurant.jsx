@@ -36,7 +36,7 @@ const Restaurant = ({ restaurant }) => {
 
                 <div className="card-body">
                     <div className="row">
-                        <div className='card-text col-sm'> ${restaurant["PRICE"][0]} </div>
+                        <div className='card-text col-sm'> {restaurant["PRICE"][0]} </div>
                         <div className='card-text col-sm'> {restaurant["AVAILABILITY"]} </div>
                         <div className='card-text col-sm'> {restaurant.LOCATION} </div>
                     </div>

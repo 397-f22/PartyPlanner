@@ -69,7 +69,7 @@ const FilterMenu = ({
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
-          label="Group"
+          label="Price"
         >
         {allOptions["Price Level"].map( p =>
             <MenuItem value={p} onClick={() => selectPriceLevel(p)}>{p}</MenuItem>
@@ -77,7 +77,6 @@ const FilterMenu = ({
         }
         </Select>
       </div>
-      
     </div>
   );
 };
