@@ -36,6 +36,7 @@ const Icon = ({type})=>{
     if(type == "Vegetarian"){
         return <img style={{width: "36px", height: "36px", display:"block"}} src={vegetarian} />
     }
+    
 
 
 }

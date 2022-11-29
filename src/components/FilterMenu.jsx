@@ -1,16 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 import "../styles/FilterMenu.css";
 import Filter from "./Filter.jsx";
 import SortBar from "./SortBar.jsx";
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
+import Button from '@mui/material/Button';
+import Modal from '@mui/material/Modal';
 
 
 // const categories = ["Research", "Athletics and Recreation", "Technical", "Laboratory Work"]
 // quarter = spring, winter, fall
 // wage
 // AVAILABILITY
+
+
 
 const FilterMenu = ({
   allOptions,
@@ -19,6 +23,14 @@ const FilterMenu = ({
   sortDirection,
   setSortDirection,
 }) => {
+
+  const [show, setShow] = useState(false)
+  const handleOpen = () => {
+    setShow(false)
+  };
+  const handleClose = () => {
+    setShow(true)
+  };
   
   function selectGroupSize(val) {
     setSelectedOptions({...selectedOptions, "Group Size": val})
@@ -30,8 +42,21 @@ const FilterMenu = ({
 
   return (
     <div className="filter-menu">
-      <h2>Dietary Restrictions</h2>
+      
+      {/* <Button onClick={() => handleOpen()}  variant='contained'>Filters</Button>
+                    <Modal
+                    open={show}
+                    onClose={handleClose}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                    
+                    // hideBackdrop = "true"
+                    >
+                    </Modal> */}
+                    
+      
       <div className="filter-container">
+      
       {allOptions["Dietary Restrictions"].map((category) => (
         <Filter
           role="filter"
@@ -77,6 +102,7 @@ const FilterMenu = ({
         }
         </Select>
       </div>
+      
     </div>
   );
 };

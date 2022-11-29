@@ -6,7 +6,6 @@ const toggle = (x, lst) =>
   lst.includes(x) ? lst.filter(y => y !== x) : [x, ...lst];
 
 const Filter = ({ selectedOptions, setSelectedOptions, value, dataTestID }) => {
-  console.log(selectedOptions)
   return (
     <div className='filter'>
       <input className="form-check-input" type="checkbox" id={value} value={value} data-testid = {dataTestID}

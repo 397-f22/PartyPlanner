@@ -5,9 +5,12 @@ import FilterMenu from "./components/FilterMenu.jsx";
 import NavBar from "./components/NavBar.jsx";
 import SortBar from "./components/SortBar";
 import RestaurantData from "./Restaurants.json";
-
+import Button from '@mui/material/Button';
+import Modal from '@mui/material/Modal';
+import Box from '@mui/material/Modal';
 //import { useData } from "./utilities/firebase.js";
 import "bootstrap/dist/css/bootstrap.min.css";
+import FilterIcon from "./pics/filter.png";
 
 
 
@@ -41,13 +44,32 @@ const App = () => {
   allOptions["Dietary Restrictions"] = dietaryRestrictions.sort();
   allOptions["Group Size"] = groupSize;
   allOptions["Price Level"] = priceLevels.sort();
-
+  const [show,setShow] = useState(false)
+  const handleOpen = () => {
+    setShow(true)
+  };
+  const handleClose = () => {
+    setShow(false)
+  };
+ 
   return (
     <div className="app-body">
       <NavBar />
       <div className="container">
         <div className="filters-and-restaurants">
           <div className="filters-list">
+          
+          <Button onClick={handleOpen} startIcon={<img src={FilterIcon}></img>} >Filter Options</Button>
+
+          <Modal
+            open={show}
+            onClose={handleClose}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+            {/* <Box sx={style}>
+              <div>test</div>
+            </Box> */}
             <FilterMenu
               allOptions={allOptions}
               selectedOptions={selectedOptions}
@@ -55,6 +77,7 @@ const App = () => {
               sortDirection={sortDirection}
               setSortDirection={setSortDirection}
             />
+          </Modal>
           </div>
           <div className="cards-list">
             <RestaurantList
