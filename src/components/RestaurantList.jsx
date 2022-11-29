@@ -22,8 +22,13 @@ const RestaurantList = ({ restaurants, selectedOptions, sortDirection }) => {
     if (selectedOptions["Dietary Restrictions"] != []){
       filteredRestaurants = filteredRestaurants.filter(rest => selectedOptions["Dietary Restrictions"].every(cat => rest.CATEGORY.includes(cat)));
     }
-      if (selectedOptions["Group Size"] != null){
+    if (selectedOptions["Group Size"] != null){
       filteredRestaurants = filteredRestaurants.filter(rest => rest.CAPACITY[0] >= selectedOptions["Group Size"])
+    }
+    if (selectedOptions["Price Level"] != null){
+      console.log("the length is")
+      console.log(selectedOptions["Price Level"].length)
+      filteredRestaurants = filteredRestaurants.filter(rest => rest.PRICE[0].length <= selectedOptions["Price Level"].length)
     }
     return filteredRestaurants;
   }

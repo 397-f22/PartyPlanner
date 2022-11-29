@@ -24,6 +24,10 @@ const FilterMenu = ({
     setSelectedOptions({...selectedOptions, "Group Size": val})
   }
 
+  function selectPriceLevel(val) {
+    setSelectedOptions({...selectedOptions, "Price Level": val})
+  }
+
   return (
     <div className="filter-menu">
       <h2>Dietary Restrictions</h2>
@@ -55,6 +59,20 @@ const FilterMenu = ({
         >
         {[...Array(allOptions["Group Size"][1]-allOptions["Group Size"][0]+1).keys()].map( i =>
             <MenuItem value={i+allOptions["Group Size"][0]} onClick={() => selectGroupSize(i+allOptions["Group Size"][0])}>{i+allOptions["Group Size"][0]}</MenuItem>
+          )
+        }
+        </Select>
+      </div>
+
+      <div className="filter-container">
+        <InputLabel id="priceLevelLabel">Price Level</InputLabel>
+        <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          label="Group"
+        >
+        {allOptions["Price Level"].map( p =>
+            <MenuItem value={p} onClick={() => selectPriceLevel(p)}>{p}</MenuItem>
           )
         }
         </Select>

@@ -14,7 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const App = () => {
   // const [sortWage, setSortWage] = useState("")
   const [sortDirection, setSortDirection] = useState("");
-  const [selectedOptions, setSelectedOptions] = useState({"Dietary Restrictions": [], "Group Size": null});
+  const [selectedOptions, setSelectedOptions] = useState({"Dietary Restrictions": [], "Group Size": null, "Price Level": null});
   //const [RestaurantData, loading, error] = useData("/");
 
   //if (error) return <h1>{error}</h1>;
@@ -30,9 +30,17 @@ const App = () => {
   dietaryRestrictions = new Array(...new Set(dietaryRestrictions));
   // Get all group size options
   let groupSize = [5,20]
+  // Get all price level options
+  let priceLevels = []
+  Object.values(RestaurantData).map((rest) => {
+    priceLevels.push(rest.PRICE[0]);
+  })
+  priceLevels = new Array(...new Set(priceLevels));
+  console.log(priceLevels);
   // Add all filtering options into allFilterCategories
   allOptions["Dietary Restrictions"] = dietaryRestrictions.sort();
   allOptions["Group Size"] = groupSize;
+  allOptions["Price Level"] = priceLevels.sort();
 
   return (
     <div className="app-body">
