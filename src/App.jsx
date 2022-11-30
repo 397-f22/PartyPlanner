@@ -83,6 +83,7 @@ const App = () => {
               setSelectedOptions={setSelectedOptions}
               sortDirection={sortDirection}
               setSortDirection={setSortDirection}
+              handleClose={handleClose}
             />
           </Modal>
           </div>

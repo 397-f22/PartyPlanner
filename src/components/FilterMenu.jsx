@@ -22,15 +22,16 @@ const FilterMenu = ({
   setSelectedOptions,
   sortDirection,
   setSortDirection,
+  handleClose
 }) => {
 
   const [show, setShow] = useState(false)
   const handleOpen = () => {
     setShow(false)
   };
-  const handleClose = () => {
-    setShow(true)
-  };
+  // const handleClose = () => {
+  //   setShow(true)
+  // };
   
   function selectGroupSize(val) {
     setSelectedOptions({...selectedOptions, "Group Size": val})
@@ -53,8 +54,7 @@ const FilterMenu = ({
                     // hideBackdrop = "true"
                     >
                     </Modal> */}
-                    
-      
+               
       <div className="filter-container">
       
       {allOptions["Dietary Restrictions"].map((category) => (
@@ -73,7 +73,7 @@ const FilterMenu = ({
           setSortDirection={setSortDirection}
         />
       </div> */}
-      
+       <button type="button" className="btn-close" aria-label="Close" onClick={handleClose}/>    
         </div> 
       <div className="filter-container">
         <InputLabel id="groupSizeLabel">Group Size</InputLabel>
