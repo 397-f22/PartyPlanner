@@ -8,6 +8,7 @@
     margin: 15px;
     padding: 15px;
     border: 0.1px solid #d8a47f;
+    position: relative;
 }
 
 h4 {
@@ -37,5 +38,5 @@ button.btn-close{
     padding:10px;
 }
 #priceLevelLabel{
-    padding:10px;
+    padding:10px;   
 }

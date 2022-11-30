@@ -43,7 +43,7 @@ const FilterMenu = ({
 
   return (
     <div className="filter-menu">
-      
+       <button type="button" className="btn-close" aria-label="Close" onClick={handleClose}/>    
       {/* <Button onClick={() => handleOpen()}  variant='contained'>Filters</Button>
                     <Modal
                     open={show}
@@ -73,7 +73,7 @@ const FilterMenu = ({
           setSortDirection={setSortDirection}
         />
       </div> */}
-       <button type="button" className="btn-close" aria-label="Close" onClick={handleClose}/>    
+      
         </div> 
       <div className="filter-container">
         <InputLabel id="groupSizeLabel">Group Size</InputLabel>
