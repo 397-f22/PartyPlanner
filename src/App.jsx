@@ -51,6 +51,13 @@ const App = () => {
   const handleClose = () => {
     setShow(false)
   };
+  const filterButtonStyle = {
+    marginLeft: "12px",
+    marginTop: "15px",
+    backgroundColor: "#d8a47f",
+    color: "black",
+    border: "1px solid #d8a47f",
+  }
  
   return (
     <div className="app-body">
@@ -59,7 +66,7 @@ const App = () => {
         <div className="filters-and-restaurants">
           <div className="filters-list">
           
-          <Button onClick={handleOpen} startIcon={<img src={FilterIcon}></img>} >Filter Options</Button>
+          <Button sx={filterButtonStyle} onClick={handleOpen} startIcon={<img style={{width: "20p", height: "20px", display:"block" }} src={FilterIcon}></img>} >Filter Options</Button>
 
           <Modal
             open={show}

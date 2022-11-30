@@ -47,7 +47,6 @@ Nav {
 }
 
 .filters-list{
-  position: sticky;
   top: 85px;
   z-index: 999;
 }
