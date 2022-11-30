@@ -40,3 +40,9 @@ button.btn-close{
 #priceLevelLabel{
     padding:10px;   
 }
+
+
+.date-picker-container{ 
+    margin-top: 9px;
+    padding: 5px;
+}

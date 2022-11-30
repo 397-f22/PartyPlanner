@@ -7,7 +7,13 @@ import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
 import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
+import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
+import TextField from '@mui/material/TextField';
 
+import dayjs from 'dayjs';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+
+import { LocalizationProvider } from "@mui/x-date-pickers";
 
 // const categories = ["Research", "Athletics and Recreation", "Technical", "Laboratory Work"]
 // quarter = spring, winter, fall
@@ -24,6 +30,13 @@ const FilterMenu = ({
   setSortDirection,
   handleClose
 }) => {
+
+  const [value, setValue] = React.useState(dayjs('2014-08-18T21:11:54'));
+
+  const handleChange = (newValue) => {
+    setValue(newValue);
+  };
+
 
   const [show, setShow] = useState(false)
   const handleOpen = () => {
@@ -101,6 +114,17 @@ const FilterMenu = ({
           )
         }
         </Select>
+      </div>
+
+      <div className="filter-container date-picker-container">
+      <LocalizationProvider dateAdapter={AdapterDayjs}>
+      <DateTimePicker
+          label="date and time"
+          value={value}
+          onChange={handleChange}
+          renderInput={(params) => <TextField {...params} />}
+        />
+        </LocalizationProvider>
       </div>
       
     </div>
