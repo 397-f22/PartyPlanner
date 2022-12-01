@@ -53,6 +53,14 @@ const FilterMenu = ({
   function selectPriceLevel(val) {
     setSelectedOptions({...selectedOptions, "Price Level": val})
   }
+  
+  //return the hour of time object from MUI date picker
+  function getHour(value){
+    let time = String(value["$d"]);
+    let time_array = time.split(" ");
+    let hour = time_array[4];
+    return hour.split(":")[0];
+  }
 
   return (
     <div className="filter-menu">
@@ -124,6 +132,8 @@ const FilterMenu = ({
           onChange={handleChange}
           renderInput={(params) => <TextField {...params} />}
         />
+        
+        
         </LocalizationProvider>
       </div>
       
