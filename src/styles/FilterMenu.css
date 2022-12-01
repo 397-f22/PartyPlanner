@@ -27,6 +27,7 @@ button.btn-close{
     display: flex;
     flex-direction: row;
     position: relative;
+    justify-content: center;
     overflow-x: scroll;
     /* flex-wrap: wrap; */
     /* height: 36px; */
