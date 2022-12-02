@@ -6,9 +6,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
-const openLink = (url) => {
-    window.open(url)
-}
+
 
 const style = {
     position: 'absolute',
@@ -23,13 +21,32 @@ const style = {
 
 };
 
+const menuButtonStyle = {
+    marginLeft: "10px",
+    marginTop: "10px",
+    marginRight: "10px",
+    backgroundColor: "#d8a47f",
+    color: "black",
+    border: "1px solid #d8a47f",
+  }
+
 const Restaurant = ({ restaurant }) => {
+
+    const openLink = url => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    }
 
     return (
         <div className='container-fluid' data-testid='restaurant'>
             <div className="card" data-testid={`restaurant-${restaurant.TITLE.substring(restaurant.TITLE.indexOf(":") + 1)}`}>
-                <div className="card-title"> {restaurant.TITLE.substring(restaurant.TITLE.indexOf(":") + 1)}
+                <div className="card-top">
+                    <div className="card-title"> {restaurant.TITLE.substring(restaurant.TITLE.indexOf(":") + 1)}
+                    </div>
+                    <div className="view-menu">
+                        <Button sx={menuButtonStyle} onClick={() => openLink(restaurant.URL)}>View Menu</Button>
+                    </div>
                 </div>
+
                 <div className="card-category">
                     {restaurant.CUSINE}
                 </div>

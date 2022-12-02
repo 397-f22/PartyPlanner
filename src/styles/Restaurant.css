@@ -17,6 +17,11 @@
     align-items: center;
 }
 
+.card-top {
+    display: flex;
+    justify-content: space-between;
+}
+
 .card-text {
     color: #7a7a7a;
 }

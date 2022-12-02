@@ -1,6 +1,6 @@
-import React from 'react'
-import '../styles/Filter.css'
-import Icon from './Icon.jsx'
+import React from 'react';
+import '../styles/Filter.css';
+import Icon from './Icon.jsx';
 
 const toggle = (x, lst) =>
   lst.includes(x) ? lst.filter(y => y !== x) : [x, ...lst];

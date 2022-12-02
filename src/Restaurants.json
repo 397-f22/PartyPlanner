@@ -6,11 +6,12 @@
     "ID": 6,
     "LOCATION": "1615 Chicago Ave, Evanston, IL 60201",
     "PRICE": [
-      "$$"
+      "$"
     ],
     "TITLE": "Tapas Barcelona",
     "AVAILABILITY": "Opens 5PM",
-    "CAPACITY": [5,7,9,12,11,15,11,13,8,11,6,9,10,11]
+    "CAPACITY": [5,7,9,12,11,15,11,13,8,11,6,9,10,11],
+    "URL": "https://www.allmenus.com/il/evanston/16743-tapas-barcelona/menu/"
   },
   {
     "CATEGORY": [],
@@ -23,7 +24,8 @@
     ],
     "TITLE": "Le Peep Evanston",
     "AVAILABILITY": "Open",
-    "CAPACITY": [8,5,7,11,7,9,10,11,18,9,10,14,17,9]
+    "CAPACITY": [8,5,7,11,7,9,10,11,18,9,10,14,17,9],
+    "URL": "https://www.allmenus.com/il/evanston/664880-le-peep-evanston/menu/"
   },
   {
     "CATEGORY": ["Gluten free", "Nut Free", "Vegetarian"],
@@ -36,7 +38,8 @@
     ],
     "TITLE": "Prarie Moon",
     "AVAILABILITY": "Open",
-    "CAPACITY": [6,7,8,10,10,10,10,13,10,9,9,9,6,9]
+    "CAPACITY": [6,7,8,10,10,10,10,13,10,9,9,9,6,9],
+    "URL": "https://www.toasttab.com/prairiemoonrestaurant/v3/"
   },
   {
     "CATEGORY": ["Vegetarian", "Halal", "Kosher", "Dairy free"],
@@ -49,7 +52,8 @@
     ],
     "TITLE": "NaKorn Urban Thai",
     "AVAILABILITY": "Open",
-    "CAPACITY": [7,7,7,11,13,14,11,5,16,12,10,13,8,10]
+    "CAPACITY": [7,7,7,11,13,14,11,5,16,12,10,13,8,10],
+    "URL": "https://nakornkitchen.com/menu"
   },
   {
     "CATEGORY": ["Vegetarian", "Gluten free", "Vegan", "Dairy free"],
@@ -63,7 +67,8 @@
     ],
     "TITLE": "Flat Top Grill",
     "AVAILABILITY": "Open",
-    "CAPACITY": [17,13,11,10,11,14,15,15,16,12,11,14,7,8]
+    "CAPACITY": [17,13,11,10,11,14,15,15,16,12,11,14,7,8],
+    "URL": "https://evanston.orderflattopgrill.com/"
   },
   {
     "CATEGORY": ["Gluten free", "Vegan", "Nut Free", "Vegetarian"],
@@ -75,9 +80,9 @@
       "$$"
     ],
     "TITLE": "La Cocinita",
-    "URL": "",
     "AVAILABILITY": "Open",
-    "CAPACITY": [11,11,11,11,11,11,11,11,11,11,11,11,11,11]
+    "CAPACITY": [11,11,11,11,11,11,11,11,11,11,11,11,11,11],
+    "URL": "https://www.lacocinita.com/evanston"
   },
   {
     "CATEGORY": ["Dairy free", "Vegan", "Vegetarian", "Nut Free"],
@@ -91,7 +96,8 @@
     ],
     "TITLE": "Koco Table Evanston",
     "AVAILABILITY": "Open",
-    "CAPACITY": [5,5,5,5,5,5,5,5,5,5,5,5,5,5]
+    "CAPACITY": [5,5,5,5,5,5,5,5,5,5,5,5,5,5],
+    "URL": "https://www.allmenus.com/il/evanston/657581-koco-table/menu/"
   },
   {
     "CATEGORY": ["Vegetarian", "Gluten free", "Vegan", "Dairy free", "Nut Free", "Halal", "Kosher"],
@@ -105,7 +111,8 @@
     ],
     "TITLE": "Joy Yee Noodle",
     "AVAILABILITY": "Open",
-    "CAPACITY": [20,20,20,20,20,20,20,20,20,20,20,20,20,20]
+    "CAPACITY": [20,20,20,20,20,20,20,20,20,20,20,20,20,20],
+    "URL": "https://menupages.com/joy-yee-noodle/533-davis-st-evanston"
   },
   {
     "CATEGORY": ["Kosher", "Vegetarian"],
@@ -118,7 +125,8 @@
     ],
     "TITLE": "Habibi In Mediterranean Grill",
     "AVAILABILITY": "Open",
-    "CAPACITY": [9,8,8,8,7,8,7,6,7,8,5,6,8,9]
+    "CAPACITY": [9,8,8,8,7,8,7,6,7,8,5,6,8,9],
+    "URL": "https://www.habibiin.com/menu/"
   },
   {
     "CATEGORY": ["Dairy free"],
@@ -131,10 +139,11 @@
     ],
     "TITLE": "Koi Fine Asian Cuisine & Lounge",
     "AVAILABILITY": "Open",
-    "CAPACITY": [5,7,8,9,8,8,9,8,9,8,9,8,9,8]
+    "CAPACITY": [5,7,8,9,8,8,9,8,9,8,9,8,9,8],
+    "URL": "https://restaurantguru.com/Koi-Chicago/menu"
   },
   {
-    "CATEGORY": ["Vegan"],
+    "CATEGORY": ["Vegan", "Vegetarian"],
     "CONTACT PHONE NUMBER": "(847) 563-8461",
     "CUSINE": "Chinese",
     "ID": 16,
@@ -145,10 +154,11 @@
     ],
     "TITLE": "Peppercorns Kitchen",
     "AVAILABILITY": "Open",
-    "CAPACITY": [10,11,12,13,14,15,16,17,18,19,20,19,18,18]
+    "CAPACITY": [10,11,12,13,14,15,16,17,18,19,20,19,18,18],
+    "URL": "https://peppercornskitchen.com/evanston-evanston-peppercorns-kitchen-food-menu"
   },
   {
-    "CATEGORY": ["Dairy free"],
+    "CATEGORY": ["Vegetarian", "Gluten free"],
     "CONTACT PHONE NUMBER": "(847) 328-9100",
     "CUSINE": "American",
     "ID": 17,
@@ -158,7 +168,8 @@
     ],
     "TITLE": "Stacked & Folded",
     "AVAILABILITY": "Open",
-    "CAPACITY": [10,11,12,13,14,15,16,17,18,19,20,19,18,18]
+    "CAPACITY": [10,11,12,13,14,15,16,17,18,19,20,19,18,18],
+    "URL": "https://www.stackedandfoldedtogo.com/assets/img/evanstonMenu.pdf"
   }
 
 ]
