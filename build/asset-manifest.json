@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f93bdb35.css",
-    "main.js": "/static/js/main.8d51c67d.js",
+    "main.css": "/static/css/main.5f488131.css",
+    "main.js": "/static/js/main.dab6d598.js",
     "static/js/787.7df4a02a.chunk.js": "/static/js/787.7df4a02a.chunk.js",
+    "static/media/halal.png": "/static/media/halal.93a80e6785a0c4ed39e2.png",
+    "static/media/vegan.png": "/static/media/vegan.e267506498158654d6a8.png",
+    "static/media/kosher.png": "/static/media/kosher.c6da4c2435a209d8eae4.png",
+    "static/media/peanut-free.png": "/static/media/peanut-free.7f79f86bc82ae67d26b6.png",
+    "static/media/gluten-free.png": "/static/media/gluten-free.5de70124d8af2d2ebe4b.png",
+    "static/media/vegetarian.png": "/static/media/vegetarian.a80a40feda4316bb618c.png",
+    "static/media/diary.png": "/static/media/diary.bb816c83661954521bbd.png",
     "index.html": "/index.html",
-    "main.f93bdb35.css.map": "/static/css/main.f93bdb35.css.map",
-    "main.8d51c67d.js.map": "/static/js/main.8d51c67d.js.map",
+    "main.5f488131.css.map": "/static/css/main.5f488131.css.map",
+    "main.dab6d598.js.map": "/static/js/main.dab6d598.js.map",
     "787.7df4a02a.chunk.js.map": "/static/js/787.7df4a02a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f93bdb35.css",
-    "static/js/main.8d51c67d.js"
+    "static/css/main.5f488131.css",
+    "static/js/main.dab6d598.js"
   ]
 }
