@@ -1,7 +1,7 @@
 [
   {
     "CATEGORY": ["Gluten free", "Nut Free", "Vegetarian"],
-    "CONTACT PHONE NUMBER": "(847) 866-9900",
+    "NUMBER": "847-866-9900",
     "CUSINE": "Spanish",
     "ID": 6,
     "LOCATION": "1615 Chicago Ave, Evanston, IL 60201",
@@ -15,7 +15,7 @@
   },
   {
     "CATEGORY": [],
-    "CONTACT PHONE NUMBER": "(847) 866-9900",
+    "NUMBER": "847-866-9900",
     "CUSINE": "Brunch",
     "ID": 7,
     "LOCATION": "827 Church St, Evanston, IL 60202",
@@ -29,7 +29,7 @@
   },
   {
     "CATEGORY": ["Gluten free", "Nut Free", "Vegetarian"],
-    "CONTACT PHONE NUMBER": "(847) 864-8328",
+    "NUMBER": "847-864-8328",
     "CUSINE": "American",
     "ID": 8,
     "LOCATION": "1635 Chicago Ave, Evanston, IL 60201",
@@ -43,7 +43,7 @@
   },
   {
     "CATEGORY": ["Vegetarian", "Halal", "Kosher", "Dairy free"],
-    "CONTACT PHONE NUMBER": "(847) 733-8424",
+    "NUMBER": "847-733-8424",
     "CUSINE": "Thai",
     "ID": 9,
     "LOCATION": "1622 Orrington Ave, Evanston, IL 60201",
@@ -57,7 +57,7 @@
   },
   {
     "CATEGORY": ["Vegetarian", "Gluten free", "Vegan", "Dairy free"],
-    "CONTACT PHONE NUMBER": "(847) 570-0100",
+    "NUMBER": "847-570-0100",
     "CUSINE": "Asian fusion",
     "ID": 10,
     "JOB DESCRIPTION": "",
@@ -72,7 +72,7 @@
   },
   {
     "CATEGORY": ["Gluten free", "Vegan", "Nut Free", "Vegetarian"],
-    "CONTACT PHONE NUMBER": "(847) 332-1625",
+    "NUMBER": "847-332-1625",
     "CUSINE": "Latin American",
     "ID": 11,
     "LOCATION": "1625 Chicago Ave, Evanston, IL 60201",
@@ -86,7 +86,7 @@
   },
   {
     "CATEGORY": ["Dairy free", "Vegan", "Vegetarian", "Nut Free"],
-    "CONTACT PHONE NUMBER": "(847) 866-7055",
+    "NUMBER": "847-866-7055",
     "CUSINE": "Korean",
     "ID": 12,
     "LOCATION": "720 1/2 Clark St, Evanston, IL 60201",
@@ -101,7 +101,7 @@
   },
   {
     "CATEGORY": ["Vegetarian", "Gluten free", "Vegan", "Dairy free", "Nut Free", "Halal", "Kosher"],
-    "CONTACT PHONE NUMBER": "(847) 866-7055",
+    "NUMBER": "847-866-7055",
     "CUSINE": "Chinese",
     "ID": 13,
     "LOCATION": "533 Davis St, Evanston, IL 60201",
@@ -116,7 +116,7 @@
   },
   {
     "CATEGORY": ["Kosher", "Vegetarian"],
-    "CONTACT PHONE NUMBER": "(847) 328-3278",
+    "NUMBER": "847-328-3278",
     "CUSINE": "Mediterranean",
     "ID": 14,
     "LOCATION": "825 Church St, Evanston, IL 60201",
@@ -130,7 +130,7 @@
   },
   {
     "CATEGORY": ["Dairy free"],
-    "CONTACT PHONE NUMBER": "(847) 866-6969",
+    "NUMBER": "847-866-6969",
     "CUSINE": "Asian fusion",
     "ID": 15,
     "LOCATION": "624 Davis St, Evanston, IL 60201",
@@ -144,7 +144,7 @@
   },
   {
     "CATEGORY": ["Vegan", "Vegetarian"],
-    "CONTACT PHONE NUMBER": "(847) 563-8461",
+    "NUMBER": "847-563-8461",
     "CUSINE": "Chinese",
     "ID": 16,
     "LOCATION": "620 Davis St, Evanston, IL 60201",
@@ -159,7 +159,7 @@
   },
   {
     "CATEGORY": ["Vegetarian", "Gluten free"],
-    "CONTACT PHONE NUMBER": "(847) 328-9100",
+    "NUMBER": "847-328-9100",
     "CUSINE": "American",
     "ID": 17,
     "LOCATION": "824 Noyes St, Evanston, IL 60201",

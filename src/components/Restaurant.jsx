@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-
+import ButtonBase from '@mui/material/ButtonBase';
 
 
 const style = {
@@ -22,22 +22,20 @@ const style = {
 };
 
 const menuButtonStyle = {
-    marginLeft: "10px",
     marginTop: "10px",
-    marginRight: "10px",
+    marginRight: "40px",
     backgroundColor: "#d8a47f",
     color: "black",
     border: "1px solid #d8a47f",
     height: "38.5px",
     width: "102.5px",
   }
-
-const Restaurant = ({ restaurant }) => {
+    const Restaurant = ({ restaurant }) => {
 
     const openLink = url => {
         window.open(url, '_blank', 'noopener,noreferrer');
     }
-
+    console.log(restaurant.NUMBER)
     return (
         <div className='container-fluid' data-testid='restaurant'>
             <div className="card" data-testid={`restaurant-${restaurant.TITLE.substring(restaurant.TITLE.indexOf(":") + 1)}`}>
@@ -46,6 +44,9 @@ const Restaurant = ({ restaurant }) => {
                     </div>
                     <div className="view-menu">
                         <Button sx={menuButtonStyle} onClick={() => openLink(restaurant.URL)}>View Menu</Button>
+                        <ButtonBase sx={{boxShadow: 0, cursor: "default"}} disableElevation disableRipple disableFocusRipple onClick={() => openLink("tel:" + restaurant.NUMBER)}><span id="call-button" class="material-symbols-outlined">
+                            smartphone
+                        </span></ButtonBase>
                     </div>
                 </div>
 
