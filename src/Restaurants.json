@@ -10,7 +10,7 @@
     ],
     "TITLE": "Tapas Barcelona",
     "AVAILABILITY": "Opens 5PM",
-    "CAPACITY": [5,7,9,12,11,15,11,13,8,11,6,9,10,11],
+    "CAPACITY": [0,0,0,0,0,0,0,0,5,7,9,12,11,15,11,13,8,11,6,9,10,11,0,0],
     "URL": "https://www.allmenus.com/il/evanston/16743-tapas-barcelona/menu/"
   },
   {
@@ -24,7 +24,7 @@
     ],
     "TITLE": "Le Peep Evanston",
     "AVAILABILITY": "Open",
-    "CAPACITY": [8,5,7,11,7,9,10,11,18,9,10,14,17,9],
+    "CAPACITY": [0,0,0,0,0,0,0,0,8,5,7,11,7,9,10,11,18,9,10,14,17,9,0,0],
     "URL": "https://www.allmenus.com/il/evanston/664880-le-peep-evanston/menu/"
   },
   {
@@ -38,7 +38,7 @@
     ],
     "TITLE": "Prarie Moon",
     "AVAILABILITY": "Open",
-    "CAPACITY": [6,7,8,10,10,10,10,13,10,9,9,9,6,9],
+    "CAPACITY": [0,0,0,0,0,0,0,0,6,7,8,10,10,10,10,13,10,9,9,9,6,9,0,0],
     "URL": "https://www.toasttab.com/prairiemoonrestaurant/v3/"
   },
   {
@@ -52,7 +52,7 @@
     ],
     "TITLE": "NaKorn Urban Thai",
     "AVAILABILITY": "Open",
-    "CAPACITY": [7,7,7,11,13,14,11,5,16,12,10,13,8,10],
+    "CAPACITY": [0,0,0,0,0,0,0,0,7,7,7,11,13,14,11,5,16,12,10,13,8,10,0,0],
     "URL": "https://nakornkitchen.com/menu"
   },
   {
@@ -67,7 +67,7 @@
     ],
     "TITLE": "Flat Top Grill",
     "AVAILABILITY": "Open",
-    "CAPACITY": [17,13,11,10,11,14,15,15,16,12,11,14,7,8],
+    "CAPACITY": [0,0,0,0,0,0,0,0,17,13,11,10,11,14,15,15,16,12,11,14,7,8,0,0],
     "URL": "https://evanston.orderflattopgrill.com/"
   },
   {
@@ -81,7 +81,7 @@
     ],
     "TITLE": "La Cocinita",
     "AVAILABILITY": "Open",
-    "CAPACITY": [11,11,11,11,11,11,11,11,11,11,11,11,11,11],
+    "CAPACITY": [0,0,0,0,0,0,0,0,11,11,11,11,11,11,11,11,11,15,15,15,15,11,0,0],
     "URL": "https://www.lacocinita.com/evanston"
   },
   {
@@ -96,7 +96,7 @@
     ],
     "TITLE": "Koco Table Evanston",
     "AVAILABILITY": "Open",
-    "CAPACITY": [5,5,5,5,5,5,5,5,5,5,5,5,5,5],
+    "CAPACITY": [0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,5,5,5,5,0,0],
     "URL": "https://www.allmenus.com/il/evanston/657581-koco-table/menu/"
   },
   {
@@ -111,7 +111,7 @@
     ],
     "TITLE": "Joy Yee Noodle",
     "AVAILABILITY": "Open",
-    "CAPACITY": [20,20,20,20,20,20,20,20,20,20,20,20,20,20],
+    "CAPACITY": [0,0,0,0,0,0,0,0,20,20,20,20,20,20,20,20,25,25,25,30,30,20,0,0],
     "URL": "https://menupages.com/joy-yee-noodle/533-davis-st-evanston"
   },
   {
@@ -125,7 +125,7 @@
     ],
     "TITLE": "Habibi In Mediterranean Grill",
     "AVAILABILITY": "Open",
-    "CAPACITY": [9,8,8,8,7,8,7,6,7,8,5,6,8,9],
+    "CAPACITY": [0,0,0,0,0,0,0,0,9,8,8,8,7,8,7,6,7,8,5,6,8,9,0,0],
     "URL": "https://www.habibiin.com/menu/"
   },
   {
@@ -139,7 +139,7 @@
     ],
     "TITLE": "Koi Fine Asian Cuisine & Lounge",
     "AVAILABILITY": "Open",
-    "CAPACITY": [5,7,8,9,8,8,9,8,9,8,9,8,9,8],
+    "CAPACITY": [0,0,0,0,0,0,0,0,5,7,8,9,8,8,9,8,9,8,9,8,9,8,0,0],
     "URL": "https://restaurantguru.com/Koi-Chicago/menu"
   },
   {
@@ -154,7 +154,7 @@
     ],
     "TITLE": "Peppercorns Kitchen",
     "AVAILABILITY": "Open",
-    "CAPACITY": [10,11,12,13,14,15,16,17,18,19,20,19,18,18],
+    "CAPACITY": [0,0,0,0,0,0,0,0,10,11,12,13,14,15,16,17,18,19,20,19,18,18,0,0],
     "URL": "https://peppercornskitchen.com/evanston-evanston-peppercorns-kitchen-food-menu"
   },
   {
@@ -168,7 +168,7 @@
     ],
     "TITLE": "Stacked & Folded",
     "AVAILABILITY": "Open",
-    "CAPACITY": [10,11,12,13,14,15,16,17,18,19,20,19,18,18],
+    "CAPACITY": [0,0,0,0,0,0,0,0,10,11,12,13,14,15,16,17,18,19,20,19,18,18,0,0],
     "URL": "https://www.stackedandfoldedtogo.com/assets/img/evanstonMenu.pdf"
   }
 

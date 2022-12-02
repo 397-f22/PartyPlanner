@@ -11,30 +11,30 @@ import vegetarian from '../pics/vegetarian.png';
 const Icon = ({type})=>{
 
     if(type == "Vegan"){
-        return <img style={{width: "36px", height: "36px", display:"block" }} src={vegan} />
+        return <img style={{width: "28px", height: "28px", display:"block" }} src={vegan} />
 
     }
     if(type == "Dairy free"){
-        return <img style={{width: "36px", height: "36px", display:"block"}} src={diary} />
+        return <img style={{width: "28px", height: "28px", display:"block"}} src={diary} />
  
     }
     if(type == "Gluten free"){
-        return <img style={{width: "36px", height: "36px", display:"block"}} src={gluten} />
+        return <img style={{width: "28px", height: "28px", display:"block"}} src={gluten} />
      
     }
     if(type == "Halal"){
-        return <img style={{width: "36px", height: "36px", display:"block"}} src={halal} />
+        return <img style={{width: "28px", height: "28px", display:"block"}} src={halal} />
      
     }
     if(type == "Kosher"){
-        return <img style={{width: "36px", height: "36px", display:"block"}} src={kosher} />
+        return <img style={{width: "28px", height: "28px", display:"block"}} src={kosher} />
     }
     if(type == "Nut Free"){
-        return <img style={{width: "36px", height: "36px", display:"block"}} src={nut} />
+        return <img style={{width: "28px", height: "28px", display:"block"}} src={nut} />
     }
 
     if(type == "Vegetarian"){
-        return <img style={{width: "36px", height: "36px", display:"block"}} src={vegetarian} />
+        return <img style={{width: "28px", height: "28px", display:"block"}} src={vegetarian} />
     }
     
 

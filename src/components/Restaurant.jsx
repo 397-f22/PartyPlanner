@@ -28,6 +28,8 @@ const menuButtonStyle = {
     backgroundColor: "#d8a47f",
     color: "black",
     border: "1px solid #d8a47f",
+    height: "38.5px",
+    width: "102.5px",
   }
 
 const Restaurant = ({ restaurant }) => {

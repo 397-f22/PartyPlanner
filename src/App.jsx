@@ -17,7 +17,7 @@ import FilterIcon from "./pics/filter.png";
 const App = () => {
   // const [sortWage, setSortWage] = useState("")
   const [sortDirection, setSortDirection] = useState("");
-  const [selectedOptions, setSelectedOptions] = useState({"Dietary Restrictions": [], "Group Size": null, "Price Level": null});
+  const [selectedOptions, setSelectedOptions] = useState({"Dietary Restrictions": [], "Group Size": 1, "Price Level": null, "Time": 13});
   //const [RestaurantData, loading, error] = useData("/");
 
   //if (error) return <h1>{error}</h1>;
@@ -32,7 +32,7 @@ const App = () => {
     })
   dietaryRestrictions = new Array(...new Set(dietaryRestrictions));
   // Get all group size options
-  let groupSize = [1,20]
+  let groupSize = [1,50]
   // Get all price level options
   let priceLevels = []
   Object.values(RestaurantData).map((rest) => {
@@ -56,8 +56,8 @@ const App = () => {
     backgroundColor: "#d8a47f",
     color: "black",
     border: "1px solid #d8a47f",
-  }
- 
+  };
+
   return (
     <div className="app-body">
       <NavBar />

@@ -18,19 +18,19 @@ const RestaurantList = ({ restaurants, selectedOptions, sortDirection }) => {
   // console.log(filterCategories)
 
   function filterRestaurants(){
-    console.log(selectedOptions)
+    console.log(restaurants[1].TITLE)
+    console.log(restaurants[1].CAPACITY[selectedOptions["Time"]])
     let filteredRestaurants = restaurants;
     if (selectedOptions["Dietary Restrictions"] != []){
       filteredRestaurants = filteredRestaurants.filter(rest => selectedOptions["Dietary Restrictions"].every(cat => rest.CATEGORY.includes(cat)));
     }
     if (selectedOptions["Group Size"] != null){
-      filteredRestaurants = filteredRestaurants.filter(rest => rest.CAPACITY[0] >= selectedOptions["Group Size"])
+      filteredRestaurants = filteredRestaurants.filter(rest => rest.CAPACITY[selectedOptions["Time"]] >= selectedOptions["Group Size"])
     }
     if (selectedOptions["Price Level"] != null){
-      console.log("the length is")
-      console.log(selectedOptions["Price Level"].length)
       filteredRestaurants = filteredRestaurants.filter(rest => rest.PRICE[0].length <= selectedOptions["Price Level"].length)
     }
+    // console.log(filteredRestaurants)
     return filteredRestaurants;
   }
 

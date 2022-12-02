@@ -31,10 +31,12 @@ const FilterMenu = ({
   handleClose
 }) => {
 
-  const [value, setValue] = React.useState(dayjs('2014-08-18T21:11:54'));
+  const [value, setValue] = React.useState(dayjs());
 
   const handleChange = (newValue) => {
     setValue(newValue);
+    setSelectedOptions({...selectedOptions, "Time": Number(value.hour())})
+    console.log(value)
   };
 
 
@@ -58,7 +60,7 @@ const FilterMenu = ({
   function selectPriceLevel(val) {
     setSelectedOptions({...selectedOptions, "Price Level": val})
   }
-  
+
   //return the hour of time object from MUI date picker
   function getHour(value){
     let time = String(value["$d"]);
@@ -81,6 +83,56 @@ const FilterMenu = ({
                     >
                     </Modal> */}
                
+  
+      <div className="filter-container alter">
+        {/* <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          label="Group"
+        >
+        {[...Array(allOptions["Group Size"][1]-allOptions["Group Size"][0]+1).keys()].map( i =>
+            <MenuItem value={i+allOptions["Group Size"][0]} onClick={() => selectGroupSize(i+allOptions["Group Size"][0])}>{i+allOptions["Group Size"][0]}</MenuItem>
+          )
+        }
+        </Select> */}
+        <label id="groupSizeLabel" for="groupSize">Group Size:</label>
+        <input
+          id="groupSizeInput"
+          type="number"
+          name="groupSize"
+          step="1"
+          min={allOptions["Group Size"][0]}
+          max={allOptions["Group Size"][1]}
+          onChange={(e) => selectGroupSize(e.target.value)}
+          value={selectedOptions["Group Size"]}
+          required />
+      </div>
+      <div className="filter-container date-picker-container alter">
+      <LocalizationProvider dateAdapter={AdapterDayjs}>
+      <DateTimePicker
+          label="date and time"
+          value={value}
+          onChange={handleChange}
+          renderInput={(params) => <TextField {...params} />}
+        />
+        
+        
+        </LocalizationProvider>
+      </div>
+      <div className="filter-container alter">
+        <InputLabel id="priceLevelLabel">Price Level</InputLabel>
+        <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          label="Price"
+        >
+        {allOptions["Price Level"].map( p =>
+            <MenuItem value={p} onClick={() => selectPriceLevel(p)}>{p}</MenuItem>
+          )
+        }
+        </Select>
+      </div>
+      <p className="label">Dietary Restrictions</p>
       <div className="filter-container">
       
       {allOptions["Dietary Restrictions"].map((category) => (
@@ -101,57 +153,6 @@ const FilterMenu = ({
       </div> */}
       
         </div> 
-      <div className="filter-container alter">
-        {/* <Select
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          label="Group"
-        >
-        {[...Array(allOptions["Group Size"][1]-allOptions["Group Size"][0]+1).keys()].map( i =>
-            <MenuItem value={i+allOptions["Group Size"][0]} onClick={() => selectGroupSize(i+allOptions["Group Size"][0])}>{i+allOptions["Group Size"][0]}</MenuItem>
-          )
-        }
-        </Select> */}
-        <label id="groupSizeLabel" for="groupSize">Group Size (1-20):</label>
-        <input
-          id="groupSizeInput"
-          type="number"
-          name="groupSize"
-          step="1"
-          min={allOptions["Group Size"][0]}
-          max={allOptions["Group Size"][1]}
-          onChange={(e) => selectGroupSize(e.target.value)}
-          value={selectedOptions["Group Size"]}
-          required />
-      </div>
-
-      <div className="filter-container alter">
-        <InputLabel id="priceLevelLabel">Price Level</InputLabel>
-        <Select
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          label="Price"
-        >
-        {allOptions["Price Level"].map( p =>
-            <MenuItem value={p} onClick={() => selectPriceLevel(p)}>{p}</MenuItem>
-          )
-        }
-        </Select>
-      </div>
-
-      <div className="filter-container date-picker-container alter">
-      <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <DateTimePicker
-          label="date and time"
-          value={value}
-          onChange={handleChange}
-          renderInput={(params) => <TextField {...params} />}
-        />
-        
-        
-        </LocalizationProvider>
-      </div>
-      
     </div>
   );
 };
