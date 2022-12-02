@@ -47,7 +47,12 @@ const FilterMenu = ({
   // };
   
   function selectGroupSize(val) {
-    setSelectedOptions({...selectedOptions, "Group Size": val})
+    if (val == null || val == 0) {
+      setSelectedOptions({...selectedOptions, "Group Size": null})  
+    }
+    else {
+      setSelectedOptions({...selectedOptions, "Group Size": Number(val)})
+    }
   }
 
   function selectPriceLevel(val) {
@@ -97,8 +102,7 @@ const FilterMenu = ({
       
         </div> 
       <div className="filter-container alter">
-        <InputLabel id="groupSizeLabel">Group Size</InputLabel>
-        <Select
+        {/* <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           label="Group"
@@ -107,7 +111,18 @@ const FilterMenu = ({
             <MenuItem value={i+allOptions["Group Size"][0]} onClick={() => selectGroupSize(i+allOptions["Group Size"][0])}>{i+allOptions["Group Size"][0]}</MenuItem>
           )
         }
-        </Select>
+        </Select> */}
+        <label id="groupSizeLabel" for="groupSize">Group Size (1-20):</label>
+        <input
+          id="groupSizeInput"
+          type="number"
+          name="groupSize"
+          step="1"
+          min={allOptions["Group Size"][0]}
+          max={allOptions["Group Size"][1]}
+          onChange={(e) => selectGroupSize(e.target.value)}
+          value={selectedOptions["Group Size"]}
+          required />
       </div>
 
       <div className="filter-container alter">

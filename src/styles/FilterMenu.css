@@ -38,6 +38,12 @@ button.btn-close{
 #groupSizeLabel {
     padding:10px;
 }
+
+#groupSizeInput {
+    border-radius: 5px;
+    border: 1px solid #adb5bd;
+}
+
 #priceLevelLabel{
     padding:10px;   
 }

@@ -18,6 +18,7 @@ const RestaurantList = ({ restaurants, selectedOptions, sortDirection }) => {
   // console.log(filterCategories)
 
   function filterRestaurants(){
+    console.log(selectedOptions)
     let filteredRestaurants = restaurants;
     if (selectedOptions["Dietary Restrictions"] != []){
       filteredRestaurants = filteredRestaurants.filter(rest => selectedOptions["Dietary Restrictions"].every(cat => rest.CATEGORY.includes(cat)));

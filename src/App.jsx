@@ -32,14 +32,13 @@ const App = () => {
     })
   dietaryRestrictions = new Array(...new Set(dietaryRestrictions));
   // Get all group size options
-  let groupSize = [5,20]
+  let groupSize = [1,20]
   // Get all price level options
   let priceLevels = []
   Object.values(RestaurantData).map((rest) => {
     priceLevels.push(rest.PRICE[0]);
   })
   priceLevels = new Array(...new Set(priceLevels));
-  console.log(priceLevels);
   // Add all filtering options into allFilterCategories
   allOptions["Dietary Restrictions"] = dietaryRestrictions.sort();
   allOptions["Group Size"] = groupSize;
