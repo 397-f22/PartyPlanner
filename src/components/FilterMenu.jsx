@@ -96,7 +96,7 @@ const FilterMenu = ({
       </div> */}
       
         </div> 
-      <div className="filter-container">
+      <div className="filter-container alter">
         <InputLabel id="groupSizeLabel">Group Size</InputLabel>
         <Select
           labelId="demo-simple-select-label"
@@ -110,7 +110,7 @@ const FilterMenu = ({
         </Select>
       </div>
 
-      <div className="filter-container">
+      <div className="filter-container alter">
         <InputLabel id="priceLevelLabel">Price Level</InputLabel>
         <Select
           labelId="demo-simple-select-label"
@@ -124,7 +124,7 @@ const FilterMenu = ({
         </Select>
       </div>
 
-      <div className="filter-container date-picker-container">
+      <div className="filter-container date-picker-container alter">
       <LocalizationProvider dateAdapter={AdapterDayjs}>
       <DateTimePicker
           label="date and time"

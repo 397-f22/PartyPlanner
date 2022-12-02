@@ -45,3 +45,7 @@ p{
     border-radius: 3px;
     transition:0.4s all;
 }
+
+.alter{
+    justify-content: center;
+}
