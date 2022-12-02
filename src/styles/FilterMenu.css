@@ -22,7 +22,18 @@ button.btn-close{
     right: 0;
     top: 0;
     position: absolute;
+    margin:10px;
 }
+
+button.btn-close:hover{
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin:10px;
+    color: black;
+    font-weight: bolder;
+}
+
 .filter-container{
     display: flex;
     flex-direction: row;
