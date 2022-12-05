@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`restaurant should have name, price, and location 1`] = `
+<DocumentFragment>
+  <div
+    class="container-fluid"
+    data-testid="restaurant"
+  >
+    <div
+      class="card"
+      data-testid="restaurant-Tapas Barcelona"
+    >
+      <div
+        class="card-top"
+      >
+        <div
+          class="card-title"
+          data-testid="name"
+        >
+           Tapas Barcelona
+        </div>
+        <div
+          class="view-menu"
+        >
+          <button
+            class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1ectwcq-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            View Menu
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root css-178nucd-MuiButtonBase-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="material-symbols-outlined"
+              id="call-button"
+            >
+              smartphone
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="card-category"
+      >
+        Spanish
+      </div>
+      <div
+        class="card-body"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="card-text col-sm"
+            data-testid="price"
+          >
+             $ 
+          </div>
+          <div
+            class="card-text col-sm"
+          >
+             Opens 5PM 
+          </div>
+          <div
+            class="card-text col-sm"
+            data-testid="location"
+          >
+             1615 Chicago Ave, Evanston, IL 60201 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
