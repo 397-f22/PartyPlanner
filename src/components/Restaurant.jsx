@@ -40,7 +40,7 @@ const menuButtonStyle = {
         <div className='container-fluid' data-testid='restaurant'>
             <div className="card" data-testid={`restaurant-${restaurant.TITLE.substring(restaurant.TITLE.indexOf(":") + 1)}`}>
                 <div className="card-top">
-                    <div className="card-title"> {restaurant.TITLE.substring(restaurant.TITLE.indexOf(":") + 1)}
+                    <div className="card-title" data-testid="name"> {restaurant.TITLE.substring(restaurant.TITLE.indexOf(":") + 1)}
                     </div>
                     <div className="view-menu">
                         <Button sx={menuButtonStyle} onClick={() => openLink(restaurant.URL)}>View Menu</Button>
@@ -56,9 +56,9 @@ const menuButtonStyle = {
 
                 <div className="card-body">
                     <div className="row">
-                        <div className='card-text col-sm'> {restaurant["PRICE"][0]} </div>
+                        <div className='card-text col-sm' data-testid="price"> {restaurant["PRICE"][0]} </div>
                         <div className='card-text col-sm'> {restaurant["AVAILABILITY"]} </div>
-                        <div className='card-text col-sm'> {restaurant.LOCATION} </div>
+                        <div className='card-text col-sm' data-testid="location"> {restaurant.LOCATION} </div>
                     </div>
                 </div>
             </div>
@@ -66,4 +66,4 @@ const menuButtonStyle = {
     )
 }
 
-export default Restaurant
+export default Restaurant;
