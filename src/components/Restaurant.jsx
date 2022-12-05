@@ -37,7 +37,7 @@ const menuButtonStyle = {
     }
     console.log(restaurant.NUMBER)
     return (
-        <div className='container-fluid' data-testid='restaurant'>
+        <div className='container-fluid' data-testid='restaurant' className="restaurant" id={restaurant.TITLE}>
             <div className="card" data-testid={`restaurant-${restaurant.TITLE.substring(restaurant.TITLE.indexOf(":") + 1)}`}>
                 <div className="card-top">
                     <div className="card-title" data-testid="name"> {restaurant.TITLE.substring(restaurant.TITLE.indexOf(":") + 1)}

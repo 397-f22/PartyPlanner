@@ -65,13 +65,14 @@ const App = () => {
         <div className="filters-and-restaurants">
           <div className="filters-list">
           
-          <Button sx={filterButtonStyle} onClick={handleOpen} startIcon={<img style={{width: "20p", height: "20px", display:"block" }} src={FilterIcon}></img>} >Filter Options</Button>
+          <Button data-testid="filterButton" sx={filterButtonStyle} onClick={handleOpen} startIcon={<img style={{width: "20p", height: "20px", display:"block" }} src={FilterIcon}></img>} >Filter Options</Button>
 
           <Modal
             open={show}
             onClose={handleClose}
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
+            id="filterModal"
           >
             {/* <Box sx={style}>
               <div>test</div>

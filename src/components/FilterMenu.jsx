@@ -124,11 +124,19 @@ const FilterMenu = ({
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
+          data-testid="demo-simple-select"
           label="Price"
+          role="listbox"
+          native={true}
         >
-        {allOptions["Price Level"].map( p =>
-            <MenuItem value={p} onClick={() => selectPriceLevel(p)}>{p}</MenuItem>
+        {allOptions["Price Level"].map( p => {
+          console.log("Price Level")
+          console.log(p)
+          console.log(<MenuItem value={p} onClick={() => selectPriceLevel(p)} data-testid={p}>{p}</MenuItem>)
+          return (
+            <MenuItem value={p} onClick={() => selectPriceLevel(p)} data-testid={p}>{p}</MenuItem>
           )
+        })
         }
         </Select>
       </div>
